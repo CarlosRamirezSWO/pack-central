@@ -10,6 +10,7 @@ This pack packages the official upstream Helm charts required to deploy Emissary
 
 Before deploying this pack, ensure that:
 
+* Kubernetes 1.29
 * A supported Kubernetes cluster is available.
 * The Kubernetes version satisfies the requirements of the bundled Helm chart.
 * A cloud provider or networking solution is available if using a `LoadBalancer` Service.
