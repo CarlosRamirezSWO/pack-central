@@ -1,7 +1,7 @@
 pack:
   content:
     images:
-      - image: docker.io/absaoss/k8gb:v0.19.0
+      - image: registry.k8gb.io/k8gb-io/k8gb:v0.19.0
       - image: registry.k8gb.io/k8gb-io/k8s_crd:v0.4.0
       - image: coredns/coredns:1.13.1
       - image: registry.k8s.io/external-dns/external-dns:0.20.0
