@@ -41,7 +41,7 @@ Additional application settings can be customized through the `values.yaml` file
 
 This pack provides two presets for configuring how k8gb discovers the external address used for DNS records.
 
-### CoreDNS - ClusterIP (Default)
+### CoreDNS - ClusterIP 
 
 Uses an Ingress resource for address discovery.
 
@@ -57,7 +57,7 @@ k8gb.io/ip-source=true
 
 This is the recommended deployment model described in the official k8gb documentation for Ingress-based address discovery.
 
-### CoreDNS - LoadBalancer
+### CoreDNS - LoadBalancer (Default)
 
 Uses the CoreDNS Service of type `LoadBalancer` to discover the external address.
 
